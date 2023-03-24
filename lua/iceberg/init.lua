@@ -53,7 +53,7 @@ local function set_hl_groups()
         Ignore = { bg = "NONE", fg = "NONE" },
         Include = { fg = "#84a0c6" },
         IncSearch = { fg = "NONE", reverse = true },
-        LineNr = { bg = "#1e2132", fg = "#444b71" },
+        LineNr = { bg = "#0C0D12", fg = "#444b71" },
         MatchParen = { bg = "#3e445e", fg = "#ffffff" },
         ModeMsg = { fg = "#6b7089" },
         MoreMsg = { fg = "#b4be82" },
