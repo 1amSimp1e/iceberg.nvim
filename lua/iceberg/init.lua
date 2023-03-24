@@ -31,7 +31,7 @@ local function set_hl_groups()
         Conceal = { bg = "#161821", fg = "#6b7089" },
         Constant = { fg = "#a093c7" },
         Cursor = { bg = "#c6c8d1", fg = "#161821" },
-        CursorLineNr = { bg = "#2a3158", fg = "#cdd1e6" },
+        CursorLineNr = { bg = "#161821", fg = "#cdd1e6" },
         Delimiter = { fg = "#c6c8d1" },
         DiffAdd = { bg = "#45493e", fg = "#c0c5b9" },
         DiffChange = { bg = "#384851", fg = "#b3c3cc" },
