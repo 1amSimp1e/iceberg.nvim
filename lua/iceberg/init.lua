@@ -44,7 +44,7 @@ local function set_hl_groups()
         EndOfBuffer = { fg = "#242940" },
         NonText = { fg = "#242940" },
         Whitespace = { fg = "#242940" },
-        FloatBorder = { bg = "#3d425b", fg = "#6b7089" }, -- diff
+        FloatBorder = { bg = "#1d202d", fg = "#6b7089" }, -- diff
         FloatTitle = { fg = "#ecd28b" }, -- diff
         Folded = { bg = "#1e2132", fg = "#686f9a" },
         FoldColumn = { bg = "#1e2132", fg = "#444b71" },
@@ -57,10 +57,10 @@ local function set_hl_groups()
         MatchParen = { bg = "#3e445e", fg = "#ffffff" },
         ModeMsg = { fg = "#6b7089" },
         MoreMsg = { fg = "#b4be82" },
-        NormalFloat = { bg = "#3d425b", fg = "#c6c8d1" }, -- diff
+        NormalFloat = { bg = "#1d202d", fg = "#c6c8d1" }, -- diff
         Operator = { fg = "#84a0c6" },
-        Pmenu = { bg = "#3d425b", fg = "#c6c8d1" },
-        PmenuSBar = { bg = "#3d425b", fg = "NONE" },
+        Pmenu = { bg = "#1d202d", fg = "#c6c8d1" },
+        PmenuSBar = { bg = "#1d202d", fg = "NONE" },
         PmenuSel = { bg = "#5b6389", fg = "#eff0f4" },
         PmenuThumb = { bg = "#c6c8d1", fg = "NONE" },
         PreProc = { fg = "#b4be82" },
@@ -114,7 +114,7 @@ local function set_hl_groups()
         DiagnosticUnderlineError = { sp = "#e27878", underline = true },
         DiagnosticError = { fg = "#e27878" },
         DiagnosticSignError = { bg = "#1e2132", fg = "#e27878" },
-        DiagnosticFloatingHint = { bg = "#3d425b", fg = "#c6c8d1" },
+        DiagnosticFloatingHint = { bg = "#1d202d", fg = "#c6c8d1" },
 
         CmpItemAbbr              = { link = "icebergNormalFg" },
         CmpItemAbbrDeprecated    = { fg = "#6b7089" },
