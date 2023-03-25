@@ -67,7 +67,7 @@ local function set_hl_groups()
         Question = { fg = "#b4be82" },
         QuickFixLine = { bg = "#272c42", fg = "#c6c8d1" },
         Search = { bg = "#e4aa80", fg = "#392313" },
-        SignColumn = { bg = "#1e2132", fg = "#444b71" },
+        SignColumn = { bg = "#0C0D12", fg = "#444b71" },
         Special = { fg = "#b4be82" },
         SpecialKey = { fg = "#515e97" },
         SpellBad = { fg = "NONE", sp = "#e27878", undercurl = true },
