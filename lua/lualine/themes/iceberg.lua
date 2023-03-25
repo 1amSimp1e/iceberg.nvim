@@ -32,6 +32,7 @@ return {
     inactive = {
         a = { bg = "#0F1117", fg = "#17171b" },
         b = { bg = "#2e313f", fg = "#6b7089" },
-        c = { bg = "#0f1117", fg = "#3e445e" }
+        c = { bg = "#0f1117", fg = "#3e445e" },
+        x = { bg = "#0F1117", fg = "#edeff0" },
     }
 }
