@@ -4,7 +4,7 @@ local function set_terminal_colors()
     vim.g.terminal_color_0          = "#1e2132"
     vim.g.terminal_color_1          = "#e27878"
     vim.g.terminal_color_2          = "#b4be82"
-    vim.g.terminal_color_3          = "#e2a478"
+    vim.g.terminal_color_3          = "#ecd28b"
     vim.g.terminal_color_4          = "#84a0c6"
     vim.g.terminal_color_5          = "#a093c7"
     vim.g.terminal_color_6          = "#89b8c2"
@@ -45,7 +45,7 @@ local function set_hl_groups()
         NonText = { fg = "#242940" },
         Whitespace = { fg = "#242940" },
         FloatBorder = { bg = "#3d425b", fg = "#6b7089" }, -- diff
-        FloatTitle = { fg = "#e2a478" }, -- diff
+        FloatTitle = { fg = "#ecd28b" }, -- diff
         Folded = { bg = "#1e2132", fg = "#686f9a" },
         FoldColumn = { bg = "#1e2132", fg = "#444b71" },
         Function = { fg = "#84a0c6" },
@@ -86,7 +86,7 @@ local function set_hl_groups()
         TabLineFill = { bg = "#3e445e", fg = "#0f1117" },
         TabLineSel = { bg = "#161821", fg = "#9a9ca5" },
         TermCursorNC = { bg = "#6b7089", fg = "#161821" },
-        Title = { fg = "#e2a478" },
+        Title = { fg = "#ecd28b" },
         Todo = { bg = "#45493e", fg = "#b4be82", bold = true },
         Type = { fg = "#84a0c6" },
         Underlined = { fg = "#84a0c6", underline = true },
@@ -108,9 +108,9 @@ local function set_hl_groups()
         DiagnosticUnderlineHint = { sp = "#6b7089", underline = true },
         DiagnosticHint = { fg = "#6b7089" },
         DiagnosticSignHint = { bg = "#1e2132", fg = "#6b7089" },
-        DiagnosticUnderlineWarn = { sp = "#e2a478", underline = true },
-        DiagnosticWarn = { fg = "#e2a478" },
-        DiagnosticSignWarn = { bg = "#1e2132", fg = "#e2a478" },
+        DiagnosticUnderlineWarn = { sp = "#ecd28b", underline = true },
+        DiagnosticWarn = { fg = "#ecd28b" },
+        DiagnosticSignWarn = { bg = "#1e2132", fg = "#ecd28b" },
         DiagnosticUnderlineError = { sp = "#e27878", underline = true },
         DiagnosticError = { fg = "#e27878" },
         DiagnosticSignError = { bg = "#1e2132", fg = "#e27878" },
@@ -118,7 +118,7 @@ local function set_hl_groups()
 
         CmpItemAbbr              = { link = "icebergNormalFg" },
         CmpItemAbbrDeprecated    = { fg = "#6b7089" },
-        CmpItemAbbrMatch         = { fg = "#e2a478" },
+        CmpItemAbbrMatch         = { fg = "#ecd28b" },
         CmpItemAbbrMatchFuzzy    = { fg = "#b4be82" },
         CmpItemKind              = { fg = "#84a0c6" },
         CmpItemKindClass         = { link = "Type" },
@@ -149,11 +149,11 @@ local function set_hl_groups()
         CmpItemMenu              = { link = "icebergNormalFg" },
 
         TelescopeBorder         = { bg = "NONE", fg = "#6b7089" },
-        TelescopeMatching       = { fg = "#e2a478" },
+        TelescopeMatching       = { fg = "#ecd28b" },
         TelescopePreviewExecute = { fg = "#b4be82" },
-        TelescopePreviewRead    = { fg = "#e2a478" },
+        TelescopePreviewRead    = { fg = "#ecd28b" },
         TelescopePreviewSize    = { fg = "#b4be82" },
-        TelescopePreviewUser    = { fg = "#e2a478" },
+        TelescopePreviewUser    = { fg = "#ecd28b" },
         TelescopePreviewWrite   = { fg = "#e27878" },
         TelescopePromptPrefix   = { fg = "#b4be82" },
         TelescopePromptCounter  = { fg = "#444b71" },
@@ -161,7 +161,7 @@ local function set_hl_groups()
         NvimTreeFolderIcon = { link = "Directory" },
         NvimTreeIndentMarker = { link = "Directory" },
 
-        MasonHeader = { bg = "#e2a478", fg = "#0f1117" },
+        MasonHeader = { bg = "#ecd28b", fg = "#0f1117" },
         MasonHeaderSecondary = { bg = "#89b8c2", fg = "#0f1117" },
         MasonHighlight = { fg = "#89b8c2" },
         MasonHighlightBlock = { bg = "#89b8c2", fg = "#0f1117" },
@@ -174,7 +174,7 @@ local function set_hl_groups()
         MasonMutedBlockBold = { bg = "#6b7089", fg = "#0f1117", bold = true },
         MasonError = { fg = "#e27878" },
 
-        LeapMatch = { bg = "#e2a478", fg = "#1e2132", bold = true },
+        LeapMatch = { bg = "#ecd28b", fg = "#1e2132", bold = true },
         LeapLabelPrimary = { bg = "#b4be82", fg = "#1e2132", bold = true },
         LeapLabelSecondary = { bg = "#a093c7", fg = "#1e2132", bold = true },
 
