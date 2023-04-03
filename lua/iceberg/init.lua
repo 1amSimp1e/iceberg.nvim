@@ -49,7 +49,7 @@ local function set_hl_groups()
         Folded = { bg = "#1e1e21", fg = "#686f9a" },
         FoldColumn = { bg = "#1e1e21", fg = "#444b71" },
         Function = { fg = "#84a0c6" },
-        Identifier = { fg = "#89b8c2" },
+        Identifier = { fg = "#c6c8d1" },
         Ignore = { bg = "NONE", fg = "NONE" },
         Include = { fg = "#84a0c6" },
         IncSearch = { fg = "NONE", reverse = true },
