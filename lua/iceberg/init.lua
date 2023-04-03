@@ -25,8 +25,8 @@ local function set_hl_groups()
     local groups = {
         Normal = { bg = "#101012", fg = "#c6c8d1" },
         ColorColumn = { bg = "#0C0D12" },
-        CursorColumn = { bg = "#1e2132" },
-        CursorLine = { bg = "#1e2132" },
+        CursorColumn = { bg = "#252526" },
+        CursorLine = { bg = "#252526" },
         Comment = { fg = "#6b7089" },
         Conceal = { bg = "#161821", fg = "#6b7089" },
         Constant = { fg = "#a093c7" },
@@ -44,7 +44,7 @@ local function set_hl_groups()
         EndOfBuffer = { fg = "#242940" },
         NonText = { fg = "#242940" },
         Whitespace = { fg = "#242940" },
-        FloatBorder = { bg = "#1d202d", fg = "#6b7089" }, -- diff
+        FloatBorder = { bg = "#1e1e21", fg = "#6b7089" }, -- diff
         FloatTitle = { fg = "#ecd28b" }, -- diff
         Folded = { bg = "#1e2132", fg = "#686f9a" },
         FoldColumn = { bg = "#1e2132", fg = "#444b71" },
@@ -57,7 +57,7 @@ local function set_hl_groups()
         MatchParen = { bg = "#3e445e", fg = "#ffffff" },
         ModeMsg = { fg = "#6b7089" },
         MoreMsg = { fg = "#b4be82" },
-        NormalFloat = { bg = "#1d202d", fg = "#c6c8d1" }, -- diff
+        NormalFloat = { bg = "#1e1e21", fg = "#c6c8d1" }, -- diff
         Operator = { fg = "#84a0c6" },
         Pmenu = { bg = "#1d202d", fg = "#c6c8d1" },
         PmenuSBar = { bg = "#1d202d", fg = "NONE" },
