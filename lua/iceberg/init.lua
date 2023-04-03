@@ -51,7 +51,7 @@ local function set_hl_groups()
         Function = { fg = "#84a0c6" },
         Identifier = { fg = "#84a0c6" },
         Ignore = { bg = "NONE", fg = "NONE" },
-        Include = { fg = "#84a0c6" },
+        Include = { fg = "#686f9a" },
         IncSearch = { fg = "NONE", reverse = true },
         LineNr = { bg = "#101012", fg = "#444b71" },
         MatchParen = { bg = "#3e445e", fg = "#ffffff" },
