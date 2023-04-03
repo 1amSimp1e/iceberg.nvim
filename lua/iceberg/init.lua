@@ -23,7 +23,7 @@ end
 
 local function set_hl_groups()
     local groups = {
-        Normal = { bg = "#161821", fg = "#c6c8d1" },
+        Normal = { bg = "#101012", fg = "#c6c8d1" },
         ColorColumn = { bg = "#0C0D12" },
         CursorColumn = { bg = "#1e2132" },
         CursorLine = { bg = "#1e2132" },
