@@ -1,7 +1,7 @@
 local iceberg = {}
 
 local function set_terminal_colors()
-    vim.g.terminal_color_0          = "#1e2132"
+    vim.g.terminal_color_0          = "#1e1e21"
     vim.g.terminal_color_1          = "#e27878"
     vim.g.terminal_color_2          = "#b4be82"
     vim.g.terminal_color_3          = "#ecd28b"
@@ -25,8 +25,8 @@ local function set_hl_groups()
     local groups = {
         Normal = { bg = "#101012", fg = "#c6c8d1" },
         ColorColumn = { bg = "#0C0D12" },
-        CursorColumn = { bg = "#252526" },
-        CursorLine = { bg = "#252526" },
+        CursorColumn = { bg = "#1e1e21" },
+        CursorLine = { bg = "#1e1e21" },
         Comment = { fg = "#6b7089" },
         Conceal = { bg = "#161821", fg = "#6b7089" },
         Constant = { fg = "#a093c7" },
@@ -46,8 +46,8 @@ local function set_hl_groups()
         Whitespace = { fg = "#242940" },
         FloatBorder = { bg = "#1e1e21", fg = "#6b7089" }, -- diff
         FloatTitle = { fg = "#ecd28b" }, -- diff
-        Folded = { bg = "#1e2132", fg = "#686f9a" },
-        FoldColumn = { bg = "#1e2132", fg = "#444b71" },
+        Folded = { bg = "#1e1e21", fg = "#686f9a" },
+        FoldColumn = { bg = "#1e1e21", fg = "#444b71" },
         Function = { fg = "#84a0c6" },
         Identifier = { fg = "#89b8c2" },
         Ignore = { bg = "NONE", fg = "NONE" },
@@ -95,25 +95,25 @@ local function set_hl_groups()
         VisualNOS = { bg = "#272c42", fg = "NONE" },
         WildMenu = { bg = "#d4d5db", fg = "#17171b" },
         icebergNormalFg = { fg = "#c6c8d1" },
-        GitGutterAdd = { bg = "#1e2132", fg = "#b4be82" },
-        GitGutterChange = { bg = "#1e2132", fg = "#89b8c2" },
-        GitGutterChangeDelete = { bg = "#1e2132", fg = "#89b8c2" },
-        GitGutterDelete = { bg = "#1e2132", fg = "#e27878" },
+        GitGutterAdd = { bg = "#1e1e21", fg = "#b4be82" },
+        GitGutterChange = { bg = "#1e1e21", fg = "#89b8c2" },
+        GitGutterChangeDelete = { bg = "#1e1e21", fg = "#89b8c2" },
+        GitGutterDelete = { bg = "#1e1e21", fg = "#e27878" },
         Method = { fg = "#a3adcb" },
         Uri = { fg = "#89b8c2", underline = true },
 
         DiagnosticUnderlineInfo = { sp = "#89b8c2", underline = true },
         DiagnosticInfo = { fg = "#89b8c2" },
-        DiagnosticSignInfo = { bg = "#1e2132", fg = "#89b8c2" },
+        DiagnosticSignInfo = { bg = "#1e1e21", fg = "#89b8c2" },
         DiagnosticUnderlineHint = { sp = "#6b7089", underline = true },
         DiagnosticHint = { fg = "#6b7089" },
-        DiagnosticSignHint = { bg = "#1e2132", fg = "#6b7089" },
+        DiagnosticSignHint = { bg = "#1e1e21", fg = "#6b7089" },
         DiagnosticUnderlineWarn = { sp = "#ecd28b", underline = true },
         DiagnosticWarn = { fg = "#ecd28b" },
-        DiagnosticSignWarn = { bg = "#1e2132", fg = "#ecd28b" },
+        DiagnosticSignWarn = { bg = "#1e1e21", fg = "#ecd28b" },
         DiagnosticUnderlineError = { sp = "#e27878", underline = true },
         DiagnosticError = { fg = "#e27878" },
-        DiagnosticSignError = { bg = "#1e2132", fg = "#e27878" },
+        DiagnosticSignError = { bg = "#1e1e21", fg = "#e27878" },
         DiagnosticFloatingHint = { bg = "#252526", fg = "#c6c8d1" },
 
         CmpItemAbbr              = { link = "icebergNormalFg" },
@@ -174,9 +174,9 @@ local function set_hl_groups()
         MasonMutedBlockBold = { bg = "#6b7089", fg = "#0f1117", bold = true },
         MasonError = { fg = "#e27878" },
 
-        LeapMatch = { bg = "#ecd28b", fg = "#1e2132", bold = true },
-        LeapLabelPrimary = { bg = "#b4be82", fg = "#1e2132", bold = true },
-        LeapLabelSecondary = { bg = "#a093c7", fg = "#1e2132", bold = true },
+        LeapMatch = { bg = "#ecd28b", fg = "#1e1e21", bold = true },
+        LeapLabelPrimary = { bg = "#b4be82", fg = "#1e1e21", bold = true },
+        LeapLabelSecondary = { bg = "#a093c7", fg = "#1e1e21", bold = true },
 
         IndentBlanklineChar = { link = "NonText" },
         IndentBlanklineContextChar = { fg = "#444b71" },
