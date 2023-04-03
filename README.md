@@ -1,8 +1,8 @@
-# Iceberg Neovim
+# Darker Iceberg Neovim
 
 Lua port of [iceberg.vim](https://github.com/cocopon/iceberg.vim)
 
-![Screenshot](https://github.com/oahlen/assets/raw/main/iceberg.nvim/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/1amSimp1e/iceberg.nvim/main/assets/preview.png)
 
 The goal was to make the color scheme as small as possible while being faithful to the original theme.
 Most of the original highlight groups have been removed in favor of treesitter and other popular lua based nvim plugins.
