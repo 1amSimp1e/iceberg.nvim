@@ -23,7 +23,7 @@ end
 
 local function set_hl_groups()
     local groups = {
-        Normal = { bg = "#101012", fg = "#c6c8d1" },
+        Normal = { bg = "#101012", fg = "#c6ced5" },
         ColorColumn = { bg = "#0C0D12" },
         CursorColumn = { bg = "#1e1e21" },
         CursorLine = { bg = "#1e1e21" },
@@ -80,7 +80,7 @@ local function set_hl_groups()
         StatusLineNC = { bg = "#3e445e", fg = "#0f1117", reverse = true },
         StatusLineTermNC = { bg = "#3e445e", fg = "#0f1117", reverse = true },
         StorageClass = { fg = "#84a0c6" },
-        String = { fg = "#89b8c2" },
+        String = { fg = "#c6ced5" },
         Structure = { fg = "#84a0c6" },
         TabLine = { bg = "#0f1117", fg = "#3e445e" },
         TabLineFill = { bg = "#3e445e", fg = "#0f1117" },
