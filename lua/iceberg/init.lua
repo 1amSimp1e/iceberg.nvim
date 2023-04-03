@@ -114,7 +114,7 @@ local function set_hl_groups()
         DiagnosticUnderlineError = { sp = "#e27878", underline = true },
         DiagnosticError = { fg = "#e27878" },
         DiagnosticSignError = { bg = "#1e2132", fg = "#e27878" },
-        DiagnosticFloatingHint = { bg = "#1d202d", fg = "#c6c8d1" },
+        DiagnosticFloatingHint = { bg = "#252526", fg = "#c6c8d1" },
 
         CmpItemAbbr              = { link = "icebergNormalFg" },
         CmpItemAbbrDeprecated    = { fg = "#6b7089" },
