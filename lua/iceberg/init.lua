@@ -48,8 +48,8 @@ local function set_hl_groups()
         FloatTitle = { fg = "#ecd28b" }, -- diff
         Folded = { bg = "#1e1e21", fg = "#686f9a" },
         FoldColumn = { bg = "#1e1e21", fg = "#444b71" },
-        Function = { fg = "#8ab4f8" },
-        Identifier = { fg = "#84a0c6" },
+        Identifier = { fg = "#8ab4f8" },
+        Function = { fg = "#84a0c6" },
         Ignore = { bg = "NONE", fg = "NONE" },
         Include = { fg = "#686f9a" },
         IncSearch = { fg = "NONE", reverse = true },
