@@ -1,6 +1,6 @@
 return {
     normal = {
-        a = { bg = "#84a0c6", fg = "#17171b" },
+        a = { bg = "#8AB4F8", fg = "#17171b" },
         b = { bg = "#2e313f", fg = "#6b7089" },
         c = { bg = "#0f1117", fg = "#EDEFF0" }
     },
