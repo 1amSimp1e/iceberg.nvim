@@ -30,7 +30,7 @@ return {
         c = { bg = "#0f1117", fg = "#3e445e" }
     },
     inactive = {
-        a = { bg = "#0F1117", fg = "#17171b" },
+        a = { bg = "#0F1117", fg = "#EDEFF0" },
         b = { bg = "#2e313f", fg = "#6b7089" },
         c = { bg = "#0f1117", fg = "#3e445e" },
     }
