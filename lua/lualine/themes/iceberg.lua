@@ -12,7 +12,7 @@ return {
 	visual = {
 		a = { bg = "#bc83e3", fg = "#161821" },
 		b = { bg = "#2e313f", fg = "#6b7089" },
-		c = { fg = "#727169", bg = nil },
+		c = { bg = "#0f1117", fg = "#EDEFF0" },
 	},
 	replace = {
 		a = { bg = "#e2a478", fg = "#161821" },
@@ -30,8 +30,8 @@ return {
 		c = { bg = "#0f1117", fg = "#EDEFF0" },
 	},
 	inactive = {
-        a = { fg = "#727169", bg = "#16161D", gui = "bold" },
-        b = { fg = "#727169", bg = "#16161D" },
-		c = { fg = "#727169", bg = nil },
+		a = { bg = "#0F1117", fg = "#17171b" },
+		b = { bg = "#2e313f", fg = "#6b7089" },
+		c = { bg = "#0f1117", fg = "#EDEFF0" },
 	},
 }
