@@ -106,7 +106,7 @@ local function set_hl_groups()
         DiagnosticInfo = { fg = "#89b8c2" },
         DiagnosticSignInfo = { bg = "#1e1e21", fg = "#89b8c2" },
         DiagnosticUnderlineHint = { sp = "#c6c8d1", underline = true },
-        DiagnosticHint = { fg = "#c6c8d1" },
+        DiagnosticHint = { fg = "#729ADD" },
         DiagnosticSignHint = { bg = "#1e1e21", fg = "#729ADD" },
         DiagnosticUnderlineWarn = { sp = "#ecd28b", underline = true },
         DiagnosticWarn = { fg = "#ecd28b" },
@@ -114,7 +114,7 @@ local function set_hl_groups()
         DiagnosticUnderlineError = { sp = "#e27878", underline = true },
         DiagnosticError = { fg = "#e27878" },
         DiagnosticSignError = { bg = "#1e1e21", fg = "#e27878" },
-        DiagnosticFloatingHint = { bg = "#252526", fg = "#729ADD" },
+        DiagnosticFloatingHint = { bg = "#252526", fg = "#c6c8d1" },
 
         CmpItemAbbr              = { link = "icebergNormalFg" },
         CmpItemAbbrDeprecated    = { fg = "#6b7089" },
