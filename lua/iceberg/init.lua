@@ -106,7 +106,7 @@ local function set_hl_groups()
         DiagnosticInfo = { fg = "#89b8c2" },
         DiagnosticSignInfo = { bg = "#1e1e21", fg = "#89b8c2" },
         DiagnosticUnderlineHint = { sp = "#c6c8d1", underline = true },
-        DiagnosticHint = { fg = "#729ADD" },
+        DiagnosticHint = { fg = "#78B892" },
         DiagnosticSignHint = { bg = "#1e1e21", fg = "#729ADD" },
         DiagnosticUnderlineWarn = { sp = "#ecd28b", underline = true },
         DiagnosticWarn = { fg = "#ecd28b" },
