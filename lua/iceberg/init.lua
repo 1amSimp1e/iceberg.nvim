@@ -23,7 +23,7 @@ end
 
 local function set_hl_groups()
     local groups = {
-        Normal = { bg = "#11171D", fg = "#c6ced5" },
+        Normal = { bg = "#0C0E0F", fg = "#c6ced5" },
         ColorColumn = { bg = "#0C0D12" },
         CursorColumn = { bg = "#1e1e21" },
         CursorLine = { bg = "#1e1e21" },
@@ -67,7 +67,7 @@ local function set_hl_groups()
         Question = { fg = "#b4be82" },
         QuickFixLine = { bg = "#272c42", fg = "#c6c8d1" },
         Search = { bg = "#e4aa80", fg = "#392313" },
-        SignColumn = { bg = "#11171D", fg = "#444b71" },
+        SignColumn = { bg = "#0C0E0F", fg = "#444b71" },
         Special = { fg = "#b4be82" },
         SpecialKey = { fg = "#515e97" },
         SpellBad = { fg = "NONE", sp = "#e27878", undercurl = true },
